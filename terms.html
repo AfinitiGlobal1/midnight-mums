@@ -3,70 +3,160 @@
 <head>
   <meta charset="UTF-8">
   <title>Terms & Conditions - Midnight Mums Club</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-    h1, h2 { color: #2c3e50; }
+    /* Global Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(135deg, #1a0033, #0d0d0d);
+      color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
+      border-radius: 16px;
+      padding: 25px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      text-align: center;
+      color: #ff80bf;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #ffcc70;
+      margin-top: 25px;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+
+    p, ul {
+      font-size: 1rem;
+      color: #e0e0e0;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    a {
+      color: #66d9ff;
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .card {
+        padding: 18px;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+      h2 {
+        font-size: 1.1rem;
+      }
+      p, ul {
+        font-size: 0.95rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Terms & Conditions</h1>
-  <p>Effective Date: August 20, 2025</p>
+  <div class="container">
+    <div class="card">
+      <h1>Terms & Conditions</h1>
+      <p style="text-align:center;">Effective Date: August 20, 2025</p>
 
-  <p>Welcome to Midnight Mums Club. By downloading or using our app, you agree to the following Terms & Conditions.</p>
+      <p>Welcome to Midnight Mums Club. By downloading or using our app, you agree to the following Terms & Conditions.</p>
 
-  <h2>Eligibility</h2>
-  <p>The app is designed for mothers and is available only to users aged 13 or older.</p>
+      <h2>Eligibility</h2>
+      <p>The app is designed for mothers and is available only to users aged 13 or older.</p>
 
-  <h2>User Accounts</h2>
-  <ul>
-    <li>You must provide accurate information when creating an account (email, phone, date of birth).</li>
-    <li>You are responsible for maintaining the confidentiality of your account details.</li>
-    <li>If you choose to upload a picture or record audio, you grant us the right to store and display it within the app.</li>
-  </ul>
+      <h2>User Accounts</h2>
+      <ul>
+        <li>You must provide accurate information when creating an account.</li>
+        <li>You are responsible for maintaining the confidentiality of your account.</li>
+        <li>If you upload a picture or audio, you grant us the right to display it within the app.</li>
+      </ul>
 
-  <h2>Permissions</h2>
-  <p>By using the app, you may grant permissions including:</p>
-  <ul>
-    <li>Camera – to upload pictures (optional)</li>
-    <li>Microphone – to record and send audio messages</li>
-    <li>Audio Playback – to listen to audio content</li>
-    <li>Notifications – to receive reminders and updates</li>
-    <li>Storage – to save and access media files</li>
-  </ul>
-  <p>Permissions are used only for their intended purpose and can be disabled in device settings.</p>
+      <h2>Permissions</h2>
+      <p>By using the app, you may grant permissions including:</p>
+      <ul>
+        <li>📷 Camera – to upload pictures</li>
+        <li>🎙 Microphone – to record and send audio messages</li>
+        <li>🔔 Notifications – to receive reminders</li>
+        <li>💾 Storage – to save and access media files</li>
+      </ul>
+      <p>Permissions are only used for their intended purpose and can be disabled in device settings.</p>
 
-  <h2>Subscriptions & Purchases</h2>
-  <ul>
-    <li>Some features may require a subscription.</li>
-    <li>Payments are processed securely via Google Play or Apple App Store.</li>
-    <li>Subscriptions are subject to the respective store’s refund and cancellation policies.</li>
-  </ul>
+      <h2>Subscriptions & Purchases</h2>
+      <ul>
+        <li>Some features may require a subscription.</li>
+        <li>Payments are securely processed via Google Play or Apple App Store.</li>
+        <li>Subscriptions follow each store’s refund and cancellation policies.</li>
+      </ul>
 
-  <h2>Account Deletion</h2>
-  <p>If you delete your account, all associated data (email, phone, date of birth, pictures, audio, etc.) will be permanently deleted.</p>
+      <h2>Account Deletion</h2>
+      <p>If you delete your account, all associated data (email, profile info, pictures, audio, etc.) will be permanently removed.</p>
 
-  <h2>Prohibited Uses</h2>
-  <p>You agree not to misuse the app, including:</p>
-  <ul>
-    <li>Engaging in illegal or harmful activities</li>
-    <li>Harassing or abusing other users</li>
-    <li>Attempting to access accounts without permission</li>
-  </ul>
+      <h2>Objectionable Content Policy</h2>
+      <p><strong>Zero tolerance:</strong> Midnight Mums Club prohibits the following:</p>
+      <ul>
+        <li>Harassment, abuse, or threats</li>
+        <li>Hate speech or discriminatory content</li>
+        <li>Sexually explicit, violent, or harmful content</li>
+        <li>Spam, scams, or fraudulent activity</li>
+      </ul>
+      <p>✅ Users can <strong>report content</strong> and <strong>block abusive users</strong>.  
+      ✅ All reports are reviewed within <strong>24 hours</strong>.  
+      ✅ Offending content will be removed and offending accounts ejected.</p>
 
-  <h2>Termination</h2>
-  <p>We may suspend or terminate accounts that violate these Terms.</p>
+      <h2>Prohibited Uses</h2>
+      <ul>
+        <li>Illegal or harmful activities</li>
+        <li>Accessing accounts without permission</li>
+      </ul>
 
-  <h2>Disclaimer</h2>
-  <p>The app is provided "as is". We make no guarantees of uninterrupted service or error-free operation.</p>
+      <h2>Termination</h2>
+      <p>We may suspend or terminate accounts that violate these Terms or our Objectionable Content Policy.</p>
 
-  <h2>Changes to Terms</h2>
-  <p>We may update these Terms from time to time. Continued use means acceptance of updated Terms.</p>
+      <h2>Disclaimer</h2>
+      <p>The app is provided “as is.” We make no guarantees of uninterrupted service or error-free operation.</p>
 
-  <h2>Contact Us</h2>
-  <p>Email: <a href="mailto:support@midnightmumsclub.com">support@midnightmumsclub.com</a></p>
+      <h2>Changes to Terms</h2>
+      <p>We may update these Terms. Continued use means acceptance of updated Terms.</p>
 
-  <footer>
-    <p>All rights reserved © 2025 Midnight Mums Club</p>
-  </footer>
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:support@midnightmumsclub.com">support@midnightmumsclub.com</a></p>
+
+      <footer>
+        All rights reserved © 2025 Midnight Mums Club
+      </footer>
+    </div>
+  </div>
 </body>
 </html>
